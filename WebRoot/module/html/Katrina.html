@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Katrina.html</title>
+	
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<style type="text/css">
+	.bios dt{
+		font-weight: bold;
+	}
+	
+	.bios dd{
+		margin:0;
+		padding:0;
+	}
+	
+	.bios dl:target{
+		background-color:#999999;
+		border:1px solid black;
+		padding:1em; 
+		font-weight: bold;
+		line-height:1.5;
+	}
+	
+	.bios dl:target dt{
+		font-style:italic;
+		color:white;
+		font-size: 1.5em;
+		background-color: #cccccc;
+		margin-right:20px;
+	}
+	
+	.bios dl:target dd{
+		margin-right:20px;
+		background-color:#cccccc;
+		padding:0 1em 1em 1em;
+	}
+	
+	.bios dl:not(:target){
+		border:0;
+		padding:0;
+		font-size: .8em;
+	}
+	</style>
+  </head>
+  
+  <body>
+    <img src="../img/Katrina/bc.png" alt="Header" border="0" usemap="#Map"/>
+    <map name="Map" id="Map">
+    	<area shape="circle" coords="127,112,80" href="#trueman" />
+    	<area shape="circle" coords="244,145,55" href="#jessica" />
+    	<area shape="circle" coords="340,88,58" href="#mark"/>
+    	<area shape="circle" coords="480,287,79" href="#katrina" />
+    </map>
+    <div class="bios">
+    	<dl id="katrina">
+    		<dt>Katrina</dt>
+    		<dd>One month as cadet teacher in the March of 2011, not only did i obtain enough first hand experience in my field but also gradually realized that the career I have chosen is sacred and significant. Therefore, I am determined to become a diligent, hardworking, and responsible educator.</dd>
+    	</dl>
+    	<dl id="jessica">
+    		<dt>Jessica</dt>
+    		<dd>It is my great honor to have this opportunity to introduce myself. and I hope I could make a good performance today, eventually become a member of your school. Now let me introduce myself please. I'm a graduate student from **** UNIVERSITY . My name is *** ,**years old. , born in **. GuangDong province . My major is English, and I will graduate this June.</dd>
+    	</dl>
+    	<dl id="trueman">
+    		<dt>Trueman</dt>
+    		<dd>Although perhaps I'm not the best among the candidates, but with my strong knowledge background and full enthusiasm for education, I am sure I will satisfy you well.</dd>
+    	</dl>
+    	<dl id="mark">
+    		<dt>Mark</dt>
+    		<dd>In the past 3 years,I spent most of my time on English studying and practise. I have a good command of both spoken and written English and past CET-4 with a ease. Skilled in use of Office 2007, excel. My graduate school training combined with my cadet teacher should qualify me for this particular job.</dd>
+    	</dl>
+    </div>
+  </body>
+</html>
